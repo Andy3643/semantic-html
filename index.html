@@ -7,22 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="container d-flex">
-        <header class="col-md-6">
+    <nav class="container-fluid d-flex justify-content-between">
+        <header class="col-md-4">
             <h1>MotorBlog</h1>
         </header>
         <ul class="col-md-6 d-flex list-unstyled">
-            <li class="list-group-items"><a class="nav-links text-decoration-none" href="">Home</a></li>
-            <li class="list-group-items"><a class="nav-links text-decoration-none"href="">About</a></li>
-            <li class="list-group-items"><a class="nav-links text-decoration-none"href="">Notify</a></li>
+            <li class="list-group-items px-5"><a class="nav-links text-decoration-none" href="">Home</a></li>
+            <li class="list-group-items px-5"><a class="nav-links text-decoration-none"href="">About</a></li>
+            <li class="list-group-items px-5"><a class="nav-links text-decoration-none"href="">Notify</a></li>
         </ul>
     </nav>
-    <section class="container d-flex">
-        <article class="col-md-6">
-            <img src="./images/bajaaj180.jpg" alt="">
-            <p>Features</p>
+    <section class="container d-flex justify-content-between py-5">
+        <article class="col-md-5 card bajaaj180">
+            <img class="card-img-top" src="./images/tvsapache.jpg" alt="" width="600">
+            <p class="text-center">Features</p>
             <p>
                 <ul>
                     <li>Lorem ipsum dolor sit.</li>
@@ -33,9 +34,9 @@
                 </ul>
             </p>
         </article>
-        <article class="col-md-6">
-            <img src="./images/tvsapache.jpg" alt="">
-            <p>Features</p>
+        <article class="col-md-5 card bajaaj180">
+            <img class="card-img-top" src="./images/tvsapache.jpg" alt="" width="600">
+            <p class="text-center">Features</p>
             <p>
                 <ul>
                     <li>Lorem ipsum dolor sit.</li>
@@ -46,6 +47,13 @@
                 </ul>
             </p>
         </article>
+        
     </section>
+    <footer class="py-5 footer">
+        <h3 class="text-center">CONTACTS</h3>
+        <P class="text-center">Phone</P>
+        <p class="text-center">Email</p>
+        <P class="text-center">Facebook</P>
+    </footer>
 </body>
 </html>
