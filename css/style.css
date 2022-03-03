@@ -5,13 +5,13 @@
     color: rgb(13,12,58);
 }
 .blog{
-    text-align: center;
-    padding: 100px;
-    color: red;
+    background-image: url(../images/bgimage.jpg);
+    padding: 150px;
+    color: white;
     font-size: 25px;
 }
 .blog h2{
-    color: rgb(13,12,58);
+    color: white;
     font-size: 70px;
 }
 .bajaaj180{
