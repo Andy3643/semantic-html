@@ -1,7 +1,19 @@
 .navigation{
     background: linear-gradient(-76deg, rgb(13,12,58) 50%, white 50%);
 }
-
+.navigation h1{
+    color: rgb(13,12,58);
+}
+.blog{
+    text-align: center;
+    padding: 100px;
+    color: red;
+    font-size: 25px;
+}
+.blog h2{
+    color: rgb(13,12,58);
+    font-size: 70px;
+}
 .bajaaj180{
     background:rgb(13,12,58);
     color: white
