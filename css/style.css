@@ -1,6 +1,15 @@
+.navigation{
+    background: linear-gradient(-76deg, rgb(13,12,58) 50%, white 50%);
+}
+
 .bajaaj180{
-    background: blue;
+    background:rgb(13,12,58);
+    color: white
 }
 .footer{
-    background: yellow;
+    background: rgb(13,12,58);
+    color: white;
+}
+.features li{
+    padding: 20px;
 }
